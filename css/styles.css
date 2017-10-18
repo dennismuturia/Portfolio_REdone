@@ -2,6 +2,12 @@ body {
     padding-top: 150px;
     font-family: 'Raleway', sans-serif;
 }
+h1,h2,h3{
+    text-align: center;
+}
+.mimi{
+    text-align: left;
+}
 
 #global-nav {
     position: fixed;
@@ -127,4 +133,21 @@ div.bhoechie-tab-content{
 
 div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     display: none;
+}
+
+/*skills section*/
+.language-logo{
+    width: 50%;
+    margin-left: 25%;
+}
+.prog{
+    width: 70%;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+.java{
+    max-width: 50%;
+}
+.here{
+    float: right;
 }
