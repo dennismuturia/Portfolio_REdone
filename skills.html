@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
 <body>
 <nav id="global-nav" class="nav navbar">
@@ -23,11 +24,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <div class="pull-right">
                 <ul class="nav navbar-nav nav-list">
-                    <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
                 </ul>
             </div>
         </div>
@@ -35,6 +36,7 @@
 </nav>
 <div class="container-fluid">
     <div class="row">
+        <div class="col-lg-12">
         <hr>
         <div class="col-lg-4">
             <h2>Language/Framework</h2>
@@ -42,24 +44,63 @@
         </div>
         <div class="col-lg-8">
             <h2>Proficiency</h2>
+            <div class="progress prog">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                    <span class="sr-only">80% Complete (danger)</span>
+                </div>
+            </div>
                 <div class="progress prog">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                         <span class="sr-only">60% Complete</span>
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                        <span class="sr-only">40% Complete</span>
                     </div>
                 </div>
                 <div class="progress prog">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                        <span class="sr-only">60% Complete</span>
-                    </div>
-                </div>
-                <div class="progress prog">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                        <span class="sr-only">60% Complete</span>
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                        <span class="sr-only">90% Complete</span>
                     </div>
                 </div>
         </div>
-        <br/>
-        <hr/>
+    </div>
+        <div class="col-lg-12">
+            <hr>
+            <div class="col-lg-4">
+                <img src="assets/images/Javascript.png" class="javascript">
+            </div>
+            <div class="col-lg-8">
+                <div class="javascript-progress">
+                    <div class="col-lg-3 this">
+                        <i class="devicon-angularjs-plain colored"></i>
+                    </div>
+                    <div class="col-lg-9">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                    <div class="progress prog">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                            <span class="sr-only">50% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <hr/>
+            <div class="col-lg-4">
+                <img src="assets/images/python.png" class="javascript">
+            </div>
+            <div class="col-lg-8">
+                <div class="python-progress">
+                <div class="progress prog">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                        <span class="sr-only">60% Complete</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 </div>
 

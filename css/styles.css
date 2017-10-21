@@ -143,11 +143,22 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 .prog{
     width: 70%;
     margin-top: 4%;
-    margin-left: 15%;
 }
 .java{
     max-width: 50%;
 }
-.here{
-    float: right;
+
+.javascript{
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+.javascript-progress{
+    margin-top: 15%;
+}
+.python-progress{
+    margin-top: 15%;
+}
+.this{
+
 }
