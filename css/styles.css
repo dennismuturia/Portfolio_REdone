@@ -62,10 +62,32 @@ footer {
     margin-top: -10%;
 }
 .bottom{
-    margin-top: 5%;
     text-align: center;
+    background-color: #ffffff;
 }
-
+.back{
+    background-image: url("../assets/images/headerpic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.dennis{
+    width: 30%;
+    margin-top: 40%;
+    border-radius: 50%;
+    margin-bottom: 10%;
+}
+.log{
+    margin-left: 40%;
+}
+.logg{
+    margin-left: 45%;
+    margin-bottom: 10%;
+    margin-top: -5%;
+}
+.agility{
+    color: #ffffff;
+}
 /*  bhoechie tab */
 div.bhoechie-tab-container{
     z-index: 10;
@@ -159,6 +181,65 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 .python-progress{
     margin-top: 15%;
 }
-.this{
+.my-list{
+    list-style-type:none ;
+   text-align: center;
+}
+.my-list li{
+    display: inline-block;
+    padding: 35px;
+}
 
+.social{
+    transition: 1000ms;
+}
+.social:hover{
+    transform: scale(1.2);
+    transition: 1000ms;
+}
+/* footer*/
+.this-list{
+    list-style: none;
+}
+.this-list li{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 30%;
+    transition: 1000ms;
+}
+.this-list li a{
+
+    transition: 1000ms;
+}
+.this-list li a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 1000ms;
+}
+.contact{
+    list-style: none;
+    margin-left: 17%;
+    float: right;
+}
+.contact li{
+}
+.social-media{
+    list-style: none;
+}
+.social-media li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.xml{
+    width: 6%;
+}
+.java{
+    width: 10%;
+}
+.kotlin{
+    width: 10%;
+}
+.market{
+    margin-left: 15%;
+    width: 50%;
 }
