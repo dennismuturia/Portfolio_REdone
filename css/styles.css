@@ -15,7 +15,7 @@ h1,h2,h3{
     z-index: 9999;
     height: 150px;
     width: 100%;
-    background: #324c5f;
+    transition: 1000ms;
     color: #fff;
     line-height: 150px;
     -webkit-transition: height .5s, line-height .5s; /* Safari */
@@ -40,11 +40,13 @@ h1,h2,h3{
     list-style: none;
     display: inline-block;
     padding-left: 20px;
-    color: #ffffff;
+    color: green;
 }
 .scrolled-nav {
     height: 60px !important;
     line-height: 60px !important;
+    background: #324c5f;
+    transition: 1000ms;
 }
 .myimage{
     width: 100%;
@@ -77,16 +79,21 @@ footer {
     border-radius: 50%;
     margin-bottom: 10%;
 }
+.name{
+    color: #ffffff;
+    text-align: center;
+}
 .log{
     margin-left: 40%;
 }
 .logg{
     margin-left: 45%;
     margin-bottom: 10%;
-    margin-top: -5%;
+    margin-top: -3%;
 }
 .agility{
     color: #ffffff;
+    font-family: 'Raleway', sans-serif;
 }
 /*  bhoechie tab */
 div.bhoechie-tab-container{
@@ -196,6 +203,9 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 .social:hover{
     transform: scale(1.2);
     transition: 1000ms;
+}
+footer{
+    margin-bottom: -2%;
 }
 /* footer*/
 .this-list{
