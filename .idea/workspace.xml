@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61624b9d-c1df-4a93-85fd-163ddf38b5e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="61624b9d-c1df-4a93-85fd-163ddf38b5e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -235,7 +233,7 @@
       <workItem from="1508300969017" duration="10209000" />
       <workItem from="1508385756180" duration="1198000" />
       <workItem from="1508584833046" duration="18790000" />
-      <workItem from="1508733092944" duration="11078000" />
+      <workItem from="1508733092944" duration="11201000" />
     </task>
     <task id="LOCAL-00001" summary="Added a compressed jquery piece to assist with the animations of the pages">
       <created>1508224246426</created>
@@ -290,7 +288,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58201000" />
+    <option name="totallyTimeSpent" value="58324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="44" width="1303" height="780" extended-state="6" />
