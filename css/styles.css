@@ -2,18 +2,20 @@ body {
     padding-top: 150px;
     font-family: 'Raleway', sans-serif;
 }
-h1,h2,h3{
+h1,h2,h3, h6{
     text-align: center;
 }
 .mimi{
     text-align: left;
 }
 
+
 #global-nav {
     position: fixed;
     top: 0;
     z-index: 9999;
     height: 150px;
+    background: #324c5f;
     width: 100%;
     transition: 1000ms;
     color: #fff;
@@ -40,7 +42,10 @@ h1,h2,h3{
     list-style: none;
     display: inline-block;
     padding-left: 20px;
-    color: green;
+    color: white;
+}
+.nav-list li a:hover {
+    background-color: blue;
 }
 .scrolled-nav {
     height: 60px !important;
@@ -173,9 +178,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     width: 70%;
     margin-top: 4%;
 }
-.java{
-    max-width: 50%;
-}
+
 
 .javascript{
     width: 50%;
@@ -228,13 +231,19 @@ footer{
 }
 .contact{
     list-style: none;
-    margin-left: 17%;
-    float: right;
+    margin-left: 20%;
 }
-.contact li{
+.contact1{
+    list-style: none;
+    float: right;
+
+}
+.contact1 li{
+    padding: 5%;
 }
 .social-media{
     list-style: none;
+    margin-top: 30%;
 }
 .social-media li{
     display: inline-block;
@@ -244,7 +253,8 @@ footer{
     width: 6%;
 }
 .java{
-    width: 10%;
+    width: 50%;
+
 }
 .kotlin{
     width: 10%;
@@ -252,4 +262,14 @@ footer{
 .market{
     margin-left: 15%;
     width: 50%;
+}
+.well1{
+    height: 20%;
+}
+.android{
+    margin-left: 25%;
+}
+.php1{
+    width: 30%;
+    margin-left: 35%;
 }
